@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="firefox"/>
+  <test name="Users_firefox6(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="USERS.User_page">
+        <methods>
+          <include name="Cancel_button"/>
+          <include name="User_Submenu"/>
+          <include name="AddRecord_Alertmessage"/>
+          <include name="Customer_Addrecord_button"/>
+          <include name="Login"/>
+          <include name="Customer_page"/>
+          <include name="getup1"/>
+          <include name="Loginpage"/>
+        </methods>
+      </class> <!-- USERS.User_page -->
+    </classes>
+  </test> <!-- Users_firefox6(failed) -->
+</suite> <!-- Failed suite [Suite] -->
